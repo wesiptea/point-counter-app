@@ -15,26 +15,28 @@
         <div>
             <div class="team-score" id="home-score">
                 <h3>HOME</h3>
-                <h1 id="count-el">0</h1>
+                <h1 id="home-count-el">0</h1>
             </div>
             <div class="button-container">
-                <p class="add" id="add-1">+1</p>
-                <p class="add" id="add-2">+2</p>
-                <p class="add" id="add-3">+3</p>
+                <button class="add" id="home-add-1-btn" onclick="home-increment1()">+1</button>
+                <button class="add" id="home-add-2-btn" onclick="home-increment2()">+2</button>
+                <button class="add" id="home-add-3-btn" onclick="home-increment3()">+3</button>
             </div>
         </div>
         <div>
             <div class="team-score" id="guest-score">
                 <h3>GUEST</h3>
-                <h1 id="count-el">0</h1>
+                <h1 id="guest-count-el">0</h1>
             </div>
             <div class="button-container">
-                <p class="add" id="add-1">+1</p>
-                <p class="add" id="add-2">+2</p>
-                <p class="add" id="add-3">+3</p>
+                <button class="add" id="guest-add-1-btn" onclick="guest-increment1()">+1</button>
+                <button class="add" id="guest-add-2-btn" onclick="guest-increment2()">+2</button>
+                <button class="add" id="guest-add-3-btn" onclick="guest-increment3()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

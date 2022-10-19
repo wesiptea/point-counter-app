@@ -7,11 +7,35 @@
 let homeCountEl = document.getElementById("home-count-el");
 let guestCountEl = document.getElementById("guest-count-el");
 
-let count = 0;
+let homeCount = 0;
+let guestCount = 0;
 
 function homeIncrement1() {
-    count += 1;
-    homeCountEl.textContent = count;
-    guestCountEl.textContent = count;
-    console.log(count);
+    homeCount += 1;
+    homeCountEl.textContent = homeCount;
+}
+
+function guestIncrement1() {
+    guestCount += 1;
+    guestCountEl.textContent = guestCount;
+}
+
+function homeIncrement2() {
+    homeCount += 2;
+    homeCountEl.textContent = homeCount;
+}
+
+function guestIncrement2() {
+    guestCount += 2;
+    guestCountEl.textContent = guestCount;
+}
+
+function homeIncrement3() {
+    homeCount += 3;
+    homeCountEl.textContent = homeCount;
+}
+
+function guestIncrement3() {
+    guestCount += 3;
+    guestCountEl.textContent = guestCount;
 }

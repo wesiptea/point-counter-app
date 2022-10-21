@@ -39,3 +39,10 @@ function guestIncrement3() {
     guestCount += 3;
     guestCountEl.textContent = guestCount;
 }
+
+function reset() {
+    homeCountEl.textContent = 0;
+    guestCountEl.textContent = 0;
+    homeCount = 0;
+    guestCount = 0;
+}

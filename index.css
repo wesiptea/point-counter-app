@@ -57,3 +57,12 @@ h1 {
 button {
     kerning: 3px;
 }
+
+.reset {
+    background-color: snow;
+    border: black solid 2px;
+    border-radius: 8px;
+    font-family: 'Bungee Shade', cursive;
+    padding: 20px;
+    color: #F94F6D;
+}
